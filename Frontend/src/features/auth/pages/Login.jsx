@@ -12,11 +12,14 @@ const Login = () => {
     const [ password, setPassword ] = useState("")
 
     const handleSubmit = async (e) => {
-        e.preventDefault()
-        await handleLogin({email,password})
-        navigate('/')
-    }
+    e.preventDefault();
 
+    const success = await handleLogin({ email, password });
+
+    if (success) {
+        navigate("/");
+    }
+}
     if(loading){
         return (<main><h1>Loading.......</h1></main>)
     }
