@@ -9,9 +9,9 @@ app.use(cookieParser())
 
 app.use(cors({
     origin: [
-        "http://localhost:5173",
-        "https://ai-resume-analyzer-1-ksyr.onrender.com"
-    ],
+    "http://localhost:5173",
+    "https://ai-resume-analyzer-1-krnl.onrender.com"
+],
     credentials: true,
 }));
 
