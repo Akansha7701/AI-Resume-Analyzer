@@ -59,7 +59,6 @@ AI-Resume-Analyzer/
 └── README.md
 ```
 
----
 
 ## ⚙️ Installation
 
@@ -162,6 +161,4 @@ https://github.com/Akansha7701/AI-Resume-Analyzer
 
 ---
 
-## ⭐ If you like this project
 
-Give this repository a ⭐ on GitHub.
